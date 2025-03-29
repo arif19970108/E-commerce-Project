@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an E-commerce Project for making Arif">
+    <title>E-commerce Project</title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav__list"><a href="index.html" class="nav__link">Home</a></li>
+            <li class="nav__list"><a href="register.html" class="nav__link">Register</a></li>
+            <li class="nav__list"><a href="login.html" class="nav__link">Login</a></li>
+            <li class="nav__list"><a href="/index.html" class="nav__link">Logout</a></li>
+            <li class="nav__list"><a href="contact.html" class="nav__link">Contact</a></li>
+            <li class="nav__list"><a href="profile.html" class="nav__link">
+                <img class="profile-icon"
+                src="./images/profile1.jpg" alt="profile icon"></a></li>
+        </ul>
+
+        <ul class="nav-lower flex-space-around">
+            <li class="nav__list"><a href="/index.html" class="nav__brand
+                nav__link">Arif Express</a></li>
+            <li class="nav__list"><a href="/cart.html" class="nav__link">
+                <span><i class="fa-solid
+                    fa-cart-shopping"></i></span>
+                    Cart 3 products - $150.50
+            </a></li>
+        </ul>
+     </nav>
+    <!-- navbar ends here -->
+
+    
+    <main>
+        <section class="profile flex-center">
+            <h2 class="section-title text-center">User Profile</h2>
+            <div class="card flex-center">
+                <img src="./images/profile1.jpg" alt="profile" class="profile_img">
+                <h2 class="profile_name">Name: Md Ariul Islam</h2>
+                <p class="profile_email">Email: arifulislam19970108@gmail.com</p>
+                <p class="profile_about">I'm passionate about crafting software and web solutions that make a real impact. My goal is to create innovative, user-friendly applications that solve problems and improve people's lives.</p>
+                <div class="profile_buttons">
+                    <button class="btn profile_edit-btn">
+                        <i class="far fa-edit fa-2x"></i>
+                    </button>
+                    <button class="btn profile_delete-btn">
+                        <i class="far fa-trash-alt fa-2x"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- footer starts here -->
+     <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="email" id="subscribe" name="subscribe" 
+            class="footer__input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">subscribe</button>
+        </div>
+
+        <div>
+            <p>© Copyright 2025 Arif Express. All rights reserved</p>
+        </div>
+     </footer>
+
+
+    <!-- footer ends here -->
+
+    <script src="./scripts/index.js"></script>
+
+
+</body>
+</html>

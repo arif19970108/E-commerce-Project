@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an E-commerce Project for making Arif">
+    <title>E-commerce Project</title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav__list"><a href="index.html" class="nav__link">Home</a></li>
+            <li class="nav__list"><a href="register.html" class="nav__link">Register</a></li>
+            <li class="nav__list"><a href="login.html" class="nav__link">Login</a></li>
+            <li class="nav__list"><a href="/index.html" class="nav__link">Logout</a></li>
+            <li class="nav__list"><a href="contact.html" class="nav__link">Contact</a></li>
+            <li class="nav__list"><a href="profile.html" class="nav__link">
+                <img class="profile-icon"
+                src="./images/profile1.jpg" alt="profile icon"></a></li>
+        </ul>
+
+        <ul class="nav-lower flex-space-around">
+            <li class="nav__list"><a href="/index.html" class="nav__brand
+                nav__link">Arif Express</a></li>
+            <li class="nav__list"><a href="/cart.html" class="nav__link">
+                <span><i class="fa-solid
+                    fa-cart-shopping"></i></span>
+                    Cart 3 products - $150.50
+            </a></li>
+        </ul>
+     </nav>
+    <!-- navbar ends here -->
+
+    
+    <main class="flex-center">
+        <div class="main-content">
+            <section class="product_details flex-center">
+                <div class="product_details-left flex-center">
+                    <img src="./images/product1.jpg" alt="product1">
+                </div>
+                <div class="product_details-right">
+                    <h3 class="product_name">Sony V-4 Headphone</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product_description">
+                            <strong>Description: </strong>
+                            Dual noise sensor technology, featuring two microphones on each earcup, captures ambient noise and passes the data to the HD Noise Cancelling Processor QN1. Using a new algorithm, the HD Noise Cancelling Processor QN1 then applies noise cancelling processing in real time to a range of acoustic environments. Working together with a new Bluetooth Audio SoC (System on Chip), it senses and adjusts to music and noise signals, as well as acoustic characteristics between the driver unit and ears, at over 700 times per second.
+                        </p>
+                        <p class="product_description">
+                            The WH-1000XM4 headphones incorporate two technologies to maximise noise cancelling performance. Unique Atmospheric Pressure Optimising delivers optimal sound at high altitude2 while Personal Noise Cancellation Optimiser analyses unique sonic characteristics caused by head size, glasses, and hair, then tailors sound to you.
+                        </p>
+                        <h4 class="product_category">Category: Headphone</h4>
+                        <h4 class="product_price">Price: $215.55</h4>
+                        <p class="product_rateing">Rating: 4.5/5</p>
+                        <button class="btn product_button">Add To Cart</button>
+                        <button class="btn product_button">Back To Shopping</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <!-- footer starts here -->
+     <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="email" id="subscribe" name="subscribe" 
+            class="footer__input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">subscribe</button>
+        </div>
+
+        <div>
+            <p>© Copyright 2025 Arif Express. All rights reserved</p>
+        </div>
+     </footer>
+
+
+    <!-- footer ends here -->
+
+    <script src="./scripts/index.js"></script>
+
+
+</body>
+</html>
